@@ -12,6 +12,11 @@
         path = ./go;
         description = "A basic Go nix flake with a linter provided.";
       };
+
+      plain = {
+        path = ./plain;
+        description = "A basic nix flake with no language-specific configuration.";
+      };
     };
   };
 }
