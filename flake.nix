@@ -8,6 +8,11 @@
         description = "A basic Python nix flake with linters configured.";
       };
 
+      django = {
+        path = ./django;
+        description = "A basic Python nix flake with Django installed.";
+      };
+
       go = {
         path = ./go;
         description = "A basic Go nix flake with a linter provided.";
